@@ -1,0 +1,265 @@
+.kutu {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(22, 122, 88);
+
+    animation-name: renkDegistirme;
+    animation-duration: 5s;
+}
+
+/* animasyona özel bir isim ver. 
+ animasyon name i classa koy ve süreyi belirle.
+ animasyonun boyut ve renklerini animasyondada kullanabilirsin
+ ama değişikliklerde frameleri belirtmen gerek ftom ve to yapısıyla.
+*/
+@keyframes renkDegistirme {
+    /* from {
+        width: 400px;
+        border-radius: 50px;
+    }
+
+    to {
+        width: 100px;
+    } */
+
+    0% {
+        width: 400px;
+        border-radius: 200px;
+        height: 400px;
+    }
+
+    50% {
+        width: 100px;
+        height: 100px;
+    }
+
+    100% {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+.kutu2 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 6px dashed rgb(231, 204, 136);
+    background-color: rgb(13, 131, 91);
+    font-size: 16px;
+    padding-top: 180px;
+    width: 400px;
+    height: 220px;
+    text-align: center;
+    animation-name: renkDegistirme2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes renkDegistirme2 {
+
+    /* 0% {
+        background-color: black;
+    }
+
+    25% {
+        background-color: rgb(166, 139, 107);
+    }
+
+    50% {
+        background-color: brown;
+
+    }
+
+    75% {
+        background-color: bisque;
+    }
+
+    100% {
+        background-color: blanchedalmond;
+
+    } */
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+.kutu3 {
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    top: 400px;
+    background-color: rgb(13, 189, 101);
+    border-radius: 5%;
+    border: 4px dashed rgb(4, 84, 57);
+    animation-name: divGo;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* Nesnenin sürekli hareket etmesi için */
+    position: relative;
+}
+
+@keyframes divGo {
+
+    /* 0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 1269px;
+    }
+
+    100% {
+        left: 0px;
+    }
+ 
+    100% {
+        transform: rotate(360deg);
+    } */
+
+
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 300px;
+    }
+
+    100% {
+        top: 0px;
+    }
+
+
+
+}
+
+body {
+    background-color: aquamarine;
+}
+
+/* .top{
+    animation-name: top;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+} */
+
+
+.ball2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(222, 134, 26);
+
+    animation-name: ball2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes ball2 {
+
+    0% {
+        top: 20px;
+    }
+
+    45% {
+        height: 200px;
+        top: 350px;
+    }
+
+    50% {
+
+        width: 210px;
+        height: 180px;
+
+
+        top: 370px
+    }
+
+    55% {
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+
+    100% {
+        top: 20PX;
+    }
+}
+
+
+
+/* SON DERS CSS KISIMLARI */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
